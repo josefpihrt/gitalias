@@ -23,7 +23,7 @@ Essential goal of Git Alias is to turns Git command into shortest possible seque
 | **`pull`** | **`l`** |
 | **`merge`** | **`m`** |
 | **`clean`** | **`n`** |
-| **`checkout`** | **`o`** |
+| **`remote`** | **`o`** |
 | **`push`** | **`p`** |
 | **`restore`** | **`r`** |
 | **`switch`** | **`s`** |
@@ -61,8 +61,8 @@ Essential goal of Git Alias is to turns Git command into shortest possible seque
 | `clean --dry-run` | `ndr` |
 | `clean --force` | `nf` |
 | `clean --force --dry-run` | `nfdr` |
-| `checkout` | `o` |
-| `checkout -b` | `ob` |
+| `remote add origin` | `oao` |
+| `remote prune origin` | `opo` |
 | `push --force` | `pf` |
 | `push --delete origin` | `pdo` |
 | `push --set-upstream origin` | `psuo` |
@@ -78,7 +78,7 @@ Essential goal of Git Alias is to turns Git command into shortest possible seque
 
 ## Rules
 
-Each alias is created according to several predefined rules:
+Each alias is created according to several simple rules:
 
 ### 1) Each command is represented by a single letter
 - `merge` turns into `m`
@@ -90,12 +90,13 @@ Each alias is created according to several predefined rules:
 
 #### Special Cases
 - If the short parameter is uppercase letter then the letter is doubled
-  - `checkout -B` turns into `obb`
+  - `branch -D` turns into `bdd`
 
 ### 3) Parameters are sorted in alphabetical order
 - `merge --no-commit --squash` turns into `mncs`
 
 #### Special Cases
 - Parameter `--dry-run` is always the last one.
+  - `git clean --force --dry-run` turns into `git nfdr`
 - When the alias contains parameter that requires value to be specified by the user, that parameter is the last one.
   - `log --oneline --max-count <MAX_COUNT>` turns into `lomc`
