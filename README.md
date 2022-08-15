@@ -92,11 +92,14 @@ Each alias is created according to several simple rules:
 - If the short parameter is uppercase letter then the letter is doubled
   - `branch -D` turns into `bdd`
 
-### 3) Parameters are sorted in alphabetical order
+### 3) Parameters are represented by its full name
+- `--dry-run` turns into `dr` (NOT `n`)
+
+### 4) Parameters are sorted in alphabetical order
 - `merge --no-commit --squash` turns into `mncs`
 
 #### Special Cases
-- Parameter `--dry-run` is always the last one.
-  - `git clean --force --dry-run` turns into `git nfdr`
 - When the alias contains parameter that requires value to be specified by the user, that parameter is the last one.
   - `log --oneline --max-count <MAX_COUNT>` turns into `lomc`
+- Parameter `--dry-run` is always the last one.
+  - `git clean --force --dry-run` turns into `git nfdr`
