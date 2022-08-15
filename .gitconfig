@@ -45,13 +45,12 @@
 	gag = log --all --grep
 	gf = log --follow
 	gg = log --grep
-	g1 = log --max-count 1
 	gmc = log --max-count
 	go = log --oneline
 	gop = log --oneline --patch
-	gop1 = log --oneline --patch --max-count 1
+	gopmc = log --oneline --patch --max-count
 	gp = log --patch
-	gp1 = log --patch --max-count 1
+	gpmc = log --patch --max-count
 	gs = log --stat
 	h = stash
 	ha = stash apply
