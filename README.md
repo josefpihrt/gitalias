@@ -8,7 +8,7 @@ Essential goal of Git Alias is to turns Git command into shortest possible seque
 
 ## Usage
 
-- Copy content from [here](alias.gitconfig) and paste it to your `.gitconfig` file.
+- Copy content from [here](https://raw.githubusercontent.com/JosefPihrt/gitalias/main/alias.gitconfig) and paste it to your `.gitconfig` file.
 
 ## Command Aliases
 
