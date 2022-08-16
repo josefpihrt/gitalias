@@ -92,6 +92,7 @@
 	nq = clean --quiet
 	nx = clean -x
 	nxdr = clean -x --dry-run
+	o = remote
 	ov = remote --verbose
 	oa = remote add
 	oao = remote add origin
