@@ -1,10 +1,14 @@
 # Git Alias
 
 ## Summary
-Essential goal of Git Alias is to turns Git command into shortest possible sequence of characters (an alias) where the alias value does not have to be remembered by the user but it  can be mnemotechnically derived from the non-shortened command.
+Essential goal of Git Alias is to turns Git command into shortest possible sequence of characters (an alias) where the alias value does not have to be remembered by the user but it can be mnemotechnically derived from the non-shortened command.
 
-- Full list of aliases is available [here](aliases.gitconfig).
+- Full list of aliases is available [here](alias.gitconfig).
 - There is special alias `alias` that lists all aliases (alias for `config --global --get-regexp ^alias\\.`)
+
+## Usage
+
+- Copy content from [here](alias.gitconfig) and paste it to your `.gitconfig` file.
 
 ## Command Aliases
 
