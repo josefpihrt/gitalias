@@ -59,7 +59,10 @@
 	hl = stash list
 	hp = stash pop
 	hs = stash show
+	i = config
+	ie = config --edit
 	ig = config --global
+	ieg = config --edit --global
 	il = config --list
 	is = config --system
 	k = clone
