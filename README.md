@@ -77,7 +77,6 @@ Essential goal of Git Alias is to turns Git command into shortest possible seque
 | `reset --hard` | `th` |
 | `reset --mixed` | `tm` |
 | `revert --no-commit` | `vnc` |
-| `cherry-pick` | `y` |
 | `cherry-pick --no-commit` | `ync` |
 
 ## Rules
