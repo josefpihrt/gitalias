@@ -12,6 +12,7 @@ https://josefpihrt.github.io/docs/gitalias
 
 - Copy [list of aliases](https://raw.githubusercontent.com/JosefPihrt/gitalias/main/alias.gitconfig) and paste it to your [.gitconfig](https://git-scm.com/docs/git-config) file.
 
+### Usage Example
 
 #### Implement feature on a new branch
 ```sh
