@@ -104,12 +104,13 @@
 	osh = remote set-head
 	p = push
 	pa = push --all
+	pasuo = push --all --set-upstream origin
 	pd = push --delete
 	pdo = push --delete origin
 	pf = push --force
 	pfwl = push --force-with-lease
+	po = push origin
 	psuo = push --set-upstream origin
-	pasuo = push --all --set-upstream origin
 	pt = push --tags
 	r = restore
 	rs = restore --staged
