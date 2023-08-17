@@ -4,7 +4,7 @@
 
 Essential goal of Gitalias is to turns [git](https://git-scm.com/) command into shortest possible sequence of characters (an alias) where the alias does not have to be remembered but it can be mnemotechnically derived from the full command.
 
-### Documentation
+## Documentation
 
 https://josefpihrt.github.io/docs/gitalias
 
