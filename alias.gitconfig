@@ -110,6 +110,7 @@
 	pf = push --force
 	pfwl = push --force-with-lease
 	po = push origin
+	pot = push origin tag
 	psuo = push --set-upstream origin
 	pt = push --tags
 	r = restore
