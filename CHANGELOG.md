@@ -9,6 +9,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-- Add alias `pot = push origin tag` ([#3](https://github.com/josefpihrt/josefpihrt.github.io/pull/3))
-- Add alias `po = push origin` ([#2](https://github.com/josefpihrt/josefpihrt.github.io/pull/2))
-- Add logo ([#4](https://github.com/josefpihrt/josefpihrt.github.io/pull/4))
+- Add alias `pot = push origin tag` ([#3](https://github.com/josefpihrt/gitalias/pull/3))
+- Add alias `po = push origin` ([#2](https://github.com/josefpihrt/gitalias/pull/2))
+- Add logo ([#4](https://github.com/josefpihrt/gitalias/pull/4))
