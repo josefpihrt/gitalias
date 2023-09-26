@@ -1,4 +1,4 @@
-# Gitalias
+# Gitalias <img align="left" width="48px" height="48px" src="images/gitalias-logo-small.png">
 
 ## Summary
 
